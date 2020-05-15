@@ -1,0 +1,65 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\DSN\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js generate-lock-entry
+
+PATH: 
+  C:\Users\DSN\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\DSN\bin;C:\Rtools\bin;C:\Python27;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\sqlite;C:\msys64;C:\Ruby25-x64\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Ruby25-x64\bin;C:\Users\DSN\AppData\Local\Microsoft\WindowsApps;C:\Users\DSN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DSN\AppData\Roaming\npm;C:\sqlite;C:\msys64;C:\Program Files\heroku\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\Applications\free-mind-backend\package.json: Unexpected token , in JSON at position 978
+      at JSON.parse (<anonymous>)
+      at C:\Users\DSN\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\DSN\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\DSN\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "free-mind-backend",
+    "version": "1.0.0",
+    "description": "Backend application for free mind health application\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[\u001b\u001b[C\u001b[\u001b[Cmi",
+    "main": "server.js",
+    "scripts": {
+      "test": "test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/baliksjosay/free-mind-health-backend.git"
+    },
+    "keywords": [
+      "Nodejs",
+      "blog",
+      "API"
+    ],
+    "author": "Joseph Balikuddembe",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/baliksjosay/free-mind-health-backend/issues"
+    },
+    "homepage": "https://github.com/baliksjosay/free-mind-health-backend#readme"
+  },
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.16.3",
+    "mongoose": "5.0.16"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "chai-http": "4.0.0",
+    "mocha": "5.1.1",
+    "nodemon": "1.17.3"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
